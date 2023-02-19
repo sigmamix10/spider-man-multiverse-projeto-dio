@@ -1,16 +1,16 @@
-.link-button {
+a.link-button{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: white;
 }
 
-.link-button .icon {
+a.link-button .icon{
   width: 32px;
   height: 32px;
   padding: 3px;
   background-color: var(--primary-color);
-  border: solid 1px #fff;
+  border: solid 1px white;
   background-clip: content-box;
   border-radius: 50%;
   position: relative;
@@ -19,9 +19,9 @@
   justify-content: center;
 }
 
-.link-button .icon .play-icon {
-  border: solid 7px #fff;
-  width: 0;
+a.link-button .icon .play-icon{
+  border:solid 7px white;
+  width:0;
   height: 0;
   border-top-color: transparent;
   border-right-color: transparent;
@@ -29,6 +29,6 @@
   margin-right: -7px;
 }
 
-.link-button .label {
+a.link-button .label{
   margin-left: 10px;
 }

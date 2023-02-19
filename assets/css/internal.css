@@ -11,6 +11,7 @@
   flex-flow: row nowrap;
 }
 
+
 .s-wrapper .s-left-column {
     width: 100px;
     height: 100%;    
@@ -27,7 +28,7 @@
 .s-wrapper .s-main-content {
     height: 100%;
     width: 100%;    
-    padding-left: 130px;       
+    padding-left: 130px;    
 }
 
 .s-wrapper .s-main-content__top {
@@ -47,7 +48,8 @@
 .s-wrapper .s-main-content .s-logo img {
     margin-top: 50px;
     margin-left: 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    width: 40%;
 }
 
 .s-wrapper .s-main-content__top .s-descripton {
@@ -57,9 +59,9 @@
     border-radius: 10px;
 }
 
-.s-wrapper .s-main-content__top .s-descriptonn .s-descripton__text p {
+.s-wrapper .s-main-content .s-main-content__top .s-descriptonn .s-descripton__text p {
     color: #fff;
-    line-height: 170%;
+    line-height: 100%;  
 }
 
 .s-wrapper .s-main-content__top .s-descripton .pills {
@@ -76,7 +78,42 @@
     flex-direction: row;
 }
 
-.s-soiderman-01-01 {
+.s-spiderman-01-01 {
     background-image: url('../images/spiderman-tobey/movie-01/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-01-02 {
+    background-image: url('../images/spiderman-tobey/movie-02/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-01-03 {
+    background-image: url('../images/spiderman-tobey/movie-03/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-02-01 {
+    background-image: url('../images/spiderman-tom/movie-01/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-02-02 {
+    background-image: url('../images/spiderman-tom/movie-02/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-02-03 {
+    background-image: url('../images/spiderman-tom/movie-03/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-03-01 {
+    background-image: url('../images/spiderman-andrew/movie-01/background.png'); 
+    background-size: cover;
+}
+
+.s-spiderman-03-02 {
+    background-image: url('../images/spiderman-andrew/movie-02/background.png'); 
     background-size: cover;
 }
